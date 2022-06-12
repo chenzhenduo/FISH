@@ -2,7 +2,7 @@
 
 This project is a pytorch implementation of [*Fine-Grained Hashing With Double Filtering*](https://ieeexplore.ieee.org/document/9695302). 
 
-##Requirements
+# Requirements
 
 python 3.7.7
 
@@ -16,17 +16,17 @@ torch 1.5.0+cu101
 
 torchvision 0.6.0+cu101
 
-##Datasets Prepare
+# Datasets Prepare
 
 Download corresponding dataset, and move the folder that contains all images to the corresponding folder in "datasets".
 
-##Training 
+# Training 
 
 ```shell
 sh train.sh
 ```
 
-##Citation
+# Citation
 
 ```
 @article{ChenLWGX_TIP22,
